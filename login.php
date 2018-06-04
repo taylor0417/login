@@ -10,6 +10,7 @@
       echo '登陆成功';
       setcookie('is_login',1,time()+3600*24*7);
       $flag = true;
+      break;
     }
   }
   if($flag){
